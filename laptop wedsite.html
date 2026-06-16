@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laptop Store</title>
+
+    <!-- Bootstrap CSS -->
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        .hero {}
+
+        .card img {
+            height: 220px;
+            object-fit: cover;
+        }
+
+        footer {
+            background: #212529;
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">LaptopHub</a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#products">Laptops</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--  Section -->
+<section class="hero text-center">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Best Laptops for Every Need</h1>
+        <p class="lead">
+            Gaming, Business, Student & Professional Laptops
+        </p>
+        <a href="#products" class="btn btn-light btn-lg">
+            Shop Now
+        </a>
+    </div>
+</section>
+
+<!-- Products -->
+<section id="products" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Featured Laptops</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="assets/images/laptop.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Gaming Laptop</h5>
+                        <p class="card-text">
+                            Intel i7, RTX Graphics, 16GB RAM.
+                        </p>
+                        <h4 class="text-primary">₹89,999</h4>
+                        <button class="btn btn-primary w-100">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="assets/images/apple.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Business Laptop</h5>
+                        <p class="card-text">
+                            Lightweight design with SSD storage.
+                        </p>
+                        <h4 class="text-primary">₹1,30,999</h4>
+                        <button class="btn btn-primary w-100">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="assets/images/Dell .png">
+                    <div class="card-body">
+                        <h5 class="card-title">Student Laptop</h5>
+                        <p class="card-text">
+                         Affordable and powerful for daily tasks.
+                        </p>
+                        <h4 class="text-primary">₹49,999</h4>
+                        <button class="btn btn-primary w-100">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="bg-light py-5">
+    <div class="container text-center">
+        <h2>About Us</h2>
+        <p class="mt-3">
+            LaptopHub provides the latest laptops from top brands.
+            Find gaming, business, and student laptops at competitive prices.
+        </p>
+    </div>
+</section>
+<!--services-->
+<div class="container mt-5" id="services">
+   
+     <div class="container mt-5">
+    <h2 class="text-center mb-4">Our Services</h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card text-center p-3">
+                <div class="card-body">
+                    <h4>💻 Laptop Sales</h4>
+                    <p>Latest laptops at affordable prices.</p>
+                </div>
+            </div>
+        </div>
+
+         
+         
+        <div class="col-md-4">
+            <div class="card text-center p-3">
+                <div class="card-body">
+                    <h4>🔧 Laptop Repair</h4>
+                    <p>Fast and reliable laptop repair services.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card text-center p-3">
+                <div class="card-body">
+                    <h4>🛡️ Warranty Support</h4>
+                    <p>Get support and warranty assistance.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Contact -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+
+        <form class="row g-3">
+            <div class="col-md-6">
+                <input type="text" class="form-control"
+                    placeholder="Your Name">
+            </div>
+
+            <div class="col-md-6">
+                <input type="email" class="form-control"
+                    placeholder="Your Email">
+            </div>
+
+             <div class="col-md-6">
+                <input type="email" class="form-control"
+                    placeholder="Your mobile no">
+            </div>
+
+            <div class="col-6">
+                <textarea class="form-control" rows="5"
+                    placeholder="Your Message"></textarea>
+            </div>
+
+            <div class="col-12 text-center">
+                <button class="btn btn-primary">
+                    Send Message
+                </button>
+            </div>
+        </form>
+    </div>
+
+
+     <!-- Google Map -->
+            <div class="col-lg-6">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d61142.962248485615!2d74.23590399999999!3d16.705126399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1780548963415!5m2!1sen!2sin"
+                    width="100%"
+                    height="500"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
+             <div class="container-fluid mt-4">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d61142.962248485615!2d74.23590399999999!3d16.705126399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1780548963415!5m2!1sen!2sin"
+            width="100%"
+            height="300"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+    </div>` 
+</section>
+
+
+<!-- Footer -->
+<footer class="text-center">
+    <div class="container">
+        <p class="mb-0">
+            © 2026 LaptopHub. All Rights Reserved.
+        </p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
